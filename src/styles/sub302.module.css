@@ -9,18 +9,18 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
-.Sub302__content-container {
+.Sub302__content_container {
     width: 100%;
     margin: 0 auto;
     max-width: 1920px;
 }
 
 /* 헤더 */
-.Sub302__content-header {
+.Sub302__content_header {
     padding: 120px;
 }
 
-.Sub302__content-header h1 {
+.Sub302__content_header h1 {
     padding: 50px 0 20px 0;
     font-size: 40px;
     line-height: 54px;
@@ -28,7 +28,7 @@ body {
     color: var(--FontMainColor);
 }
 
-.Sub302__content-header p {
+.Sub302__content_header p {
     font-size: 20px;
     line-height: 36px;
     color: var(--FontSubColor);
@@ -39,7 +39,7 @@ body {
 
 /* 필터 검색 창 */
 
-.Sub302__search-FieldContainer {
+.Sub302__search_FieldContainer {
     background-color: #F7F7F7;
     font-size: 20px;
     line-height: 36px;
@@ -118,7 +118,7 @@ body {
     padding-bottom: 100px;
 }
 
-.Sub302__search-container {
+.Sub302__search_container {
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -130,7 +130,7 @@ body {
     margin: 0 auto;
 }
 
-.Sub302__search-input {
+.Sub302__search_input {
     flex: 1 1;
     border: none;
     outline: none;
@@ -139,11 +139,11 @@ body {
     border-radius: 50px;
 }
 
-.Sub302__search-input::placeholder {
+.Sub302__search_input::placeholder {
     color: #aaa;
 }
 
-.Sub302__search-button {
+.Sub302__search_button {
     background: none;
     border: none;
     outline: none;
@@ -156,11 +156,11 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.Sub302__search-button:hover {
+.Sub302__search_button:hover {
     background-color: #f0f0f0;
 }
 
-.search-button svg {
+.search_button svg {
     color: #555;
 }
 
@@ -197,12 +197,12 @@ body {
         width: 90%;
     }
 
-    .Sub302__content-header h1 {
+    .Sub302__content_header h1 {
         font-size: 36px;
         line-height: 50px;
     }
 
-    .Sub302__content-header p {
+    .Sub302__content_header p {
         font-size: 18px;
         line-height: 34px;
     }
@@ -210,7 +210,7 @@ body {
     .Sub302__mainField,
     .Sub302__selects,
     .Sub302__searchField,
-    .Sub302__search-container,
+    .Sub302__search_container,
     .Sub302__resultField {
         font-size: 18px;
         line-height: 34px;
@@ -228,12 +228,12 @@ body {
         width: 70%;
     }
 
-    .Sub302__content-header h1 {
+    .Sub302__content_header h1 {
         font-size: 36px;
         line-height: 50px;
     }
 
-    .Sub302__content-header p {
+    .Sub302__content_header p {
         font-size: 18px;
         line-height: 34px;
     }
@@ -252,7 +252,7 @@ body {
         width: 90%;
     }
 
-    .Sub302__search-input {
+    .Sub302__search_input {
         flex: 1 1;
         border: none;
         outline: none;
@@ -261,7 +261,7 @@ body {
         border-radius: 50px;
     }
 
-    .Sub302__search-container {
+    .Sub302__search_container {
         width: 100%;
     }
 
@@ -277,13 +277,13 @@ body {
         width: 70%;
     }
 
-    .Sub302__content-header h1 {
+    .Sub302__content_header h1 {
         font-size: 32px;
         line-height: 46px;
         margin-bottom: 2px;
     }
 
-    .Sub302__content-header p {
+    .Sub302__content_header p {
         font-size: 18px;
         line-height: 34px;
     }
@@ -291,7 +291,7 @@ body {
     .Sub302__mainField,
     .Sub302__selects,
     .Sub302__searchField,
-    .Sub302__search-container,
+    .Sub302__search_container,
     .Sub302__resultField,
     .Sub302__select1,
     .Sub302__select2,
@@ -301,7 +301,7 @@ body {
         width: 90%;
     }
 
-    .Sub302__search-input {
+    .Sub302__search_input {
         flex: 1 1;
         border: none;
         outline: none;
@@ -314,7 +314,7 @@ body {
         padding: 0px;
     }
 
-    .Sub302__search-container {
+    .Sub302__search_container {
         width: 100%;
     }
 
@@ -331,13 +331,13 @@ body {
         width: 70%;
     }
 
-    .Sub302__content-header h1 {
+    .Sub302__content_header h1 {
         font-size: 26px;
         line-height: 38px;
         margin-bottom: 0px;
     }
 
-    .Sub302__content-header p {
+    .Sub302__content_header p {
         font-size: 16px;
         line-height: 28px;
     }
@@ -365,14 +365,14 @@ body {
     .Sub302__mainField,
     .Sub302__selects,
     .Sub302__searchField,
-    .Sub302__search-container,
+    .Sub302__search_container,
     .Sub302__resultField {
         font-size: 14px;
         line-height: 26px;
         width: 90%;
     }
 
-    .Sub302__search-input {
+    .Sub302__search_input {
         flex: 1 1;
         border: none;
         outline: none;
@@ -383,7 +383,7 @@ body {
 
     
 
-    .Sub302__search-container {
+    .Sub302__search_container {
         width: 90%;
     }
 

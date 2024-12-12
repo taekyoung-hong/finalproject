@@ -9,14 +9,14 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
-.Sub401__content-container {
+.Sub401__content_container {
     max-width: 1320px;
     width: 90%;
     margin: 0 auto;
 }
 
 /* 헤더 */
-.Sub401__content-header {
+.Sub401__content_header {
     padding: 43px;
     line-height: 54px;
     font-weight: 600;
@@ -25,12 +25,12 @@ body {
 
 }
 
-.Sub401__content-header h1 {
+.Sub401__content_header h1 {
     padding: 50px 0 20px 0;
     font-size: 40px;
 }
 
-.Sub401__content-header p {
+.Sub401__content_header p {
     font-size: 20px;
     line-height: 36px;
     color: var(--FontSubColor);
@@ -38,13 +38,13 @@ body {
 
 
 
-.Sub401__content-main p {
+.Sub401__content_main p {
     display: inline-block;
 
 }
 
 /* 검색창 전체 게시물 수 */
-.Sub401__searchbar-total {
+.Sub401__searchbar_total {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ body {
     transform: translateY(-50%);
 }
 
-.Sub401__searchbar-searchIcon {
+.Sub401__searchbar_searchIcon {
     position: relative;
 }
 
@@ -85,7 +85,7 @@ body {
 
 /* table css */
 
-.Sub401__content-main table {
+.Sub401__content_main table {
     width: 100%;
     border-top: 2px solid #000;
 }
@@ -173,25 +173,25 @@ td {
 
 /* ========== 1000px 기준 ========== */
 @media screen and (max-width: 1000px) {
-    .Sub401__content-container {
+    .Sub401__content_container {
         width: 90%;
         font-size: 18px;
         line-height: 34px;
         margin: 0 auto;
     }
 
-    .Sub401__content-header p {
+    .Sub401__content_header p {
         font-size: 18px;
         line-height: 34px;
     }
 
-    .Sub401__content-header h1 {
+    .Sub401__content_header h1 {
         font-size: 36px;
         line-height: 34px;
         line-height: 50px;
     }
 
-    .Sub401__content-main {
+    .Sub401__content_main {
         width: 90%;
         font-size: 18px;
         line-height: 34px;
@@ -209,23 +209,23 @@ td {
 /* ========== 768px 기준 ========== */
 @media screen and (max-width: 768px) {
 
-    .Sub401__content-container {
+    .Sub401__content_container {
         width: 90%;
         padding: 100px 0;
     }
 
-    .Sub401__content-header p {
+    .Sub401__content_header p {
         font-size: 18px;
         line-height: 34px;
     }
 
-    .Sub401__content-header h1 {
+    .Sub401__content_header h1 {
         font-size: 32px;
         line-height: 46px;
         margin-bottom: 2px;
     }
 
-    .Sub401__content-main {
+    .Sub401__content_main {
         width: 90%;
         font-size: 18px;
         line-height: 34px;
@@ -241,23 +241,23 @@ td {
 
 /* ========== 480px 기준 ========== */
 @media screen and (max-width: 480px) {
-    .Sub401__content-container {
+    .Sub401__content_container {
         width: 90%;
         padding: 80px 0;
     }
 
-    .Sub401__content-header p {
+    .Sub401__content_header p {
         font-size: 16px;
         line-height: 28px;
     }
 
-    .Sub401__content-header h1 {
+    .Sub401__content_header h1 {
         font-size: 26px;
         line-height: 38px;
         margin-bottom: 0px;
     }
 
-    .Sub401__content-main {
+    .Sub401__content_main {
         font-size: 14px;
         line-height: 26px;
     }
