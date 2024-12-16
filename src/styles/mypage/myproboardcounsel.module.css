@@ -1,0 +1,517 @@
+.myprocounsel__container__box {
+   width: 100%;
+   max-width: 1320px;
+   margin: 0 auto 120px auto;
+}
+
+.myprocounsel__container__profile {
+   width: 100%;
+   max-width: 1320px;
+   margin-bottom: 60px;
+}
+
+.myprocounsel__main__title {
+   padding-top: 10px;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 54px;
+   margin-bottom: 6px;
+   color: var(--FontMainColor);
+}
+
+.myprocounsel__sub__title {
+   font-size: 20px;
+   line-height: 36px;
+   margin-bottom: 54px;
+   color: var(--FontSubColor);
+}
+
+.myprocounsel__contents__title {
+   font-size: 26px;
+   font-weight: 600;
+   line-height: 38px;
+   color: var(--FontMainColor);
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+/* 슬라이드 영역 스타일 */
+.myprocounsel__container__profile  > .swiperbg {
+   height: 240px;
+   padding-bottom: 20px;
+}
+
+.swiper-backface-hidden .swiper-slide {
+   width: 195px;
+   height: 246px;
+   background-color: #ffffff;
+   font-size: 20px;
+   line-height: 26px;
+}
+
+.myprocounsel__profile__box {
+   width: 162px;
+   height: 240px;
+   box-sizing: border-box;
+   border-radius: 10px;
+   border: 1px solid #ddd;
+   box-shadow: 5px 10px 10px rgba(170, 170, 170, 0.25);
+   padding-bottom: 60px;
+   overflow:  hidden;
+   position: relative;
+}
+
+.profile__text__box {
+   width: 90%;
+   padding: 14px 10px;
+   font-size: 18px;
+   color: var(--FontMainColor);
+   box-sizing: border-box;
+   border: 1px solid #ddd;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 10px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   text-align: left;
+}
+
+.profile__text__box p {
+   margin-bottom: 2px;
+   font-size: 18px;
+   font-weight: 600;
+   color: var(--FontMainColor);
+}
+
+.profile__text__box em {
+   font-size: 14px;
+   font-weight: 400;
+   color: var(--FontSubColor);
+}
+
+.myprocounsel__profile__image {
+   width: 100%; /* 고정된 너비 */
+   height: 100%; /* 고정된 높이 */
+   object-fit: cover; /* 비율 유지 및 이미지 영역 채우기 */
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.myprocounsel__profile__box ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.myprocounsel__profile__logo__box {
+   width: 100%;
+}
+
+.myprocounsel__profile__logo {
+   width: 37px;
+   height: 37px;
+   object-fit: cover;
+}
+
+/* 슬라이드 영역 버튼 스타일 */
+.myprocounsel__container__profile .prev,
+.myprocounsel__container__profile .next {
+   width: 42px;
+   height: 42px;
+   border: 2px solid #333;
+   border-radius: 50%;
+   outline: none;
+   color: #333;
+   opacity: .5;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   margin: auto;
+   z-index: 1;
+   cursor: pointer;
+}
+
+.myprocounsel__container__profile .prev:hover,
+.myprocounsel__container__profile .next:hover {
+   background-color: var(--MainColor);
+   color: #fff;
+   border-color: var(--MainColor);
+   transition: all 0.3s;
+   opacity: 1.0;
+}
+
+.myprocounsel__container__profile .prev::after,
+.myprocounsel__container__profile .next::after {
+   content: none;
+}
+
+.myprocounsel__container__profile .prev {
+   left: 0;
+}
+
+.myprocounsel__container__profile .next {
+   right: 0;
+}
+
+/* 검색바 영역 스타일 */
+.myprocounsel__search__div {
+   display: flex;
+   align-items: center; /* 세로 정렬을 맞춤 */
+   position: relative;
+}
+
+/* 입력 창 부모 요소에 position: relative 설정 */
+.myprocounsel__search__div {
+   position: relative;
+   width: 300px;  /* 필요에 따라 너비 설정 */
+}
+
+/* 입력창 스타일 */
+.myprocounsel__search__div input {
+   width: 100%;  /* input 너비 설정 */
+   height: 46px; /* 높이 설정 */
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   font-size: 16px;
+   padding: 10px; /* 여백 설정 */
+   box-sizing: border-box;
+}
+
+
+.myprocounsel__search__div button {
+   position: absolute;
+   right: 0; /* 오른쪽에 위치 */
+   top: 50%;
+   transform: translateY(-50%); /* 수직으로 정확히 중앙 정렬 */
+   height: 36px; /* 버튼 높이 input과 동일하게 맞춤 */
+   width: 36px; /* 버튼 크기 */
+   padding: 0; /* 여백 제거 */
+   background-color: transparent; /* 배경색 없애기 */
+   border: none; /* 테두리 제거 */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #333; /* 검은색 돋보기 아이콘 */
+   cursor: pointer; /* 커서 스타일 */
+}
+
+/* 버튼 hover 시 스타일 */
+.myprocounsel__search__div button:hover {
+   background-color: var(--MainColorDark); /* hover 시 색 변화 */
+}
+
+/* 테이블 영역 스타일 */
+.myprocounsel__container__list__table {
+   width: 100%;
+   max-width: 1320px;
+   margin-top: 12px;
+}
+
+.myprocounsel__list_table {
+   border-collapse: collapse;
+   width: 100%;
+   border-top: 2px solid #000;
+}
+
+.myprocounsel__list_table thead tr {
+   background-color: #F8F8F8;
+   border-bottom: 1px solid #ddd;
+}
+
+.myprocounsel__list_table thead tr th {
+   height: 50px;
+   vertical-align: middle;
+   font-size: 16px;
+   color: #333;
+}
+
+.myprocounsel__list_table tbody tr {
+   cursor: pointer;
+   border-bottom: 1px solid #ddd;
+}
+
+.myprocounsel__list_table tbody tr:hover {
+   background-color: #fdfdfd;
+}
+
+.myprocounsel__list_table tbody tr td {
+   height: 72px;
+   vertical-align: middle;
+   font-size: 16px;
+   color: #333;
+   border-bottom: 1px solid #ddd;
+   box-sizing: border-box;
+   padding: 0 10px;
+}
+
+.myprocounsel__list_table tbody tr td:nth-child(1) {
+   width: 100px;
+}
+
+.myprocounsel__list_table tbody tr td:nth-child(2) {
+   width: calc(100% - 900px);
+   text-align: left;
+}
+
+.myprocounsel__list_table tbody tr td:nth-child(2) p {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* 몇 줄인지 조정하는 역할 (현재: 1줄)*/
+   -webkit-box-orient: vertical;
+}
+
+.myprocounsel__list_table tbody tr:hover td:nth-child(2) p {
+   color: #4553AD;
+   font-weight: 500;
+   transition: all 0.3s;
+}
+
+.myprocounsel__list_table tbody tr td:nth-child(3) {
+   width: 160px;
+}
+
+.myprocounsel__list_table tbody tr td:nth-child(4) {
+   width: 160px;
+}
+
+.myprocounsel__status_waiting {
+   border: 1px solid #555;
+   /* 회색 테두리 */
+   color: #555;
+   /* 회색 글씨 */
+   display: inline-block;
+   /* 테두리를 감싸기 위한 블록화 */
+   width: 100px;
+   height: 36px;
+   line-height: 36px;
+   border-radius: 18px; /* 타원형 테두리 */
+   text-align: center; /* 텍스트 가운데 정렬 */
+   font-size: 16px; /* 텍스트 크기 */
+}
+
+.myprocounsel__status_completed {
+   border: 1px solid #4553AD;
+   /* 파란색 테두리 */
+   color: #4553AD;
+   /* 파란색 글씨 */
+   display: inline-block;
+   /* 테두리를 감싸기 위한 블록화 */
+   width: 100px;
+   height: 36px;
+   line-height: 36px;
+   border-radius: 18px; /* 타원형 테두리 */
+   text-align: center; /* 텍스트 가운데 정렬 */
+   font-size: 16px; /* 텍스트 크기 */
+}
+
+/* 테이블 바닥글 스타일 (전체 데이터가 없다면) */
+.myprocounsel__container__list__table .empty-message {
+   text-align: center;
+   padding: 20px;
+   color: #888;
+}
+
+.myprocounsel__inquiry__number {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 16px;
+   font-size: 16px;
+}
+
+.myprocounsel__inquiry__number li span {
+   color: var(--MainColor);
+}
+
+.myprocounsel__inquiry__number li:last-child select.search_category {
+   border: 1px solid #ddd;
+   height: 36px;
+   color: #333;
+   border-radius: 5px;
+   width: 120px;
+   font-size: 14px;
+   box-sizing: border-box;
+   padding: 0 0px 0 5px;
+}
+
+
+/* paging_number */
+.paging_num_ul {
+   display: flex;
+   justify-content: center;
+   margin-top: 60px;
+   margin-bottom: 0px;
+}
+
+.paging_num_ul li {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   border: 1px solid #ddd;
+   color: #555;
+   margin: 0 5px;
+   cursor: pointer;
+}
+
+.paging_num_ul li.prev,
+.paging_num_ul li.next {
+   padding: 0;
+}
+
+.paging_num_ul li:hover {
+   border: 1px solid #111;
+   color: #111;
+}
+
+.paging_num_ul li.active {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   border: 1px solid #111;
+}
+
+/* 반응형 디자인 */
+
+@media screen and (max-width: 1380px) {
+   .myprocounsel__container__box {
+      width: 90%;
+   }
+
+   .myprocounsel__container__profile {
+      width: 100%;
+      margin: 0 auto;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .myprocounsel__main_title {
+      font-size: 36px;
+      line-height: 50px;
+   }
+
+   .myprocounsel__sub_title {
+      font-size: 18px;
+      line-height: 34px;
+   }
+
+   .myprocounsel__inquiry__number {
+      font-size: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+   .myprocounsel__main_title {
+      font-size: 32px;
+      line-height: 46px;
+      margin-bottom: 2px;
+   }
+
+   .myprocounsel__sub_title {
+      font-size: 18px;
+      line-height: 34px;
+   }
+
+   .myprocounsel__inquiry__number {
+      font-size: 16px;
+      margin-bottom: 25px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(1) {
+      width: 80px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(2) {
+      width: calc(100% - 350px);
+      text-align: left;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(3) {
+      width: 90px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(4) {
+      width: 90px;
+   }
+
+   .myprocounsel__status_completed {
+      border: 1px solid #4553AD;
+      color: #4553AD;
+      display: inline-block;
+      width: 80px;
+      height: 26px;
+      line-height: 26px;
+      border-radius: 18px;
+      text-align: center;
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+   .myprocounsel__main_title {
+      font-size: 26px;
+      line-height: 38px;
+      margin-bottom: 0px;
+   }
+
+   .myprocounsel__sub_title {
+      font-size: 16px;
+      line-height: 34px;
+   }
+
+   .myprocounsel__inquiry__number {
+      font-size: 14px;
+      line-height: 26px;
+      margin-bottom: 10px;
+   }
+
+   .myprocounsel__list_table tbody tr td {
+      font-size: 14px;
+      line-height: 26px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(1) {
+      width: 80px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(2) {
+      width: calc(100% - 350px);
+      text-align: left;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(3) {
+      width: 90px;
+   }
+
+   .myprocounsel__list_table tbody tr td:nth-child(4) {
+      width: 90px;
+   }
+
+   .myprocounsel__status_completed {
+      border: 1px solid #4553AD;
+      color: #4553AD;
+      display: inline-block;
+      width: 70px;
+      height: 22px;
+      line-height: 22px;
+      border-radius: 18px;
+      text-align: center;
+      font-size: 12px;
+   }
+
+}
