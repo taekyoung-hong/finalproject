@@ -12,6 +12,7 @@ import MyProBoardCounsel from './pages/myproboardcounsel/MyProBoardCounsel.jsx';
 import MyProBoardCounselMy from './pages/myproboardcounselmy/MyProBoardCounselMy.jsx';
 import MyProUserInfo from './pages/myprouserinfo/MyProUserInfo.jsx';
 import MyProBoardInquiry from './pages/myproboardinquiry/MyProBoardInquiry.jsx';
+import Sub303 from './pages/sub303/Sub303.jsx';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/' element={<Container />} />
           <Route path='/sub401' element={<Sub401 />} />
           <Route path='/sub302' element={<Sub302 />} />
+          <Route path='/sub303' element={<Sub303 />} />
           
           {/* pro 마이페이지 */}
           <Route path='/mypromain' element={<MyProMain />} />
